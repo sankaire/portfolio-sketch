@@ -6,3 +6,46 @@ $font-color:white;
 body{
     background-color: $primary-color;
 }
+.right-header{
+    // background-color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    .title{
+        margin-left: 55%;
+        padding: 20px;
+        font-size: 30px;
+        letter-spacing: 10px;
+        font-weight: 800;
+        color: seagreen;
+    }
+    .nav-bar{
+        // background-color: $font-color;
+        display: flex;
+        margin-left: 55%;
+        padding: 30px;
+        .nav-items{
+            text-decoration: none;
+            word-spacing: 20px;
+            .nav-links{
+                // padding: 20px;
+                color: $font-color;
+                // letter-spacing: 10px;
+            }
+        }
+        .socials-links{
+            margin-top: 12px;
+            ul{
+                list-style-type: none;
+                li{
+                    text-decoration: none;
+                    word-spacing: 20px;
+                    a{
+                        text-decoration: none;
+                        color: seagreen;
+                    }
+                }
+            }
+            
+        }
+    }
+}
