@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,IAAI,AAAA,CACA,gBAAgB,CALL,OAAO,CAMrB",
+    "sources": [
+        "../../saas/styles.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
