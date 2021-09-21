@@ -33,17 +33,12 @@ body{
             }
         }
         .socials-links{
-            margin-top: 12px;
-            ul{
-                list-style-type: none;
-                li{
-                    text-decoration: none;
-                    word-spacing: 20px;
-                    a{
-                        text-decoration: none;
-                        color: seagreen;
-                    }
-                }
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 15px;
+            .social-items{
+                color: seagreen;
+                font-size: larger;
             }
             
         }
