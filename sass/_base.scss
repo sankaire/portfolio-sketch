@@ -1,4 +1,7 @@
 //variables
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 $primary-color:#272727;
 $secondary-color:green;
 $font-color:white;
@@ -18,10 +21,15 @@ body{
         display:flex;
         flex-direction:column;
         img{
+            margin-top: 10px;
             width: 200px;
             // height: 500px;
             opacity: 0.5;
             border-radius: 50%;
+        }
+        h2{
+             font-family: 'Ephesis', cursive;
+             color: #fff;
         }
         p{
             color: seagreen;
@@ -38,6 +46,7 @@ body{
             letter-spacing: 10px;
             font-weight: 800;
             color: seagreen;
+            font-family: 'Indie Flower', cursive;
         }
         .nav-bar{
             // background-color: $font-color;
@@ -124,6 +133,10 @@ main{
     .welcoming-text{
         color: seagreen;
         text-align: center;
+        // font-family: 'Ephesis', cursive;
+        h1{
+            font-family: 'Ephesis', cursive;
+        }
         p{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
